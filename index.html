@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaviiF | Perfil</title>
+    <style>
+        :root {
+            --bg-color: #000000;
+            --card-bg: rgba(18, 18, 18, 0.85);
+            --text-color: #d1d5db;
+            --accent-color: #ffffff;
+            --border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Wallpapers/ddg_1785185933269451005.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.8);
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid var(--accent-color);
+            object-fit: cover;
+            margin-bottom: 20px;
+            /* Foto con colores normales y sin filtros oscuros */
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+            font-size: 26px;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+        }
+
+        .handle {
+            color: #9ca3af;
+            font-size: 13px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #9ca3af;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+            color: #000000;
+            border-color: #ffffff;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="pfp/bauti.jpg" alt="Avatar" class="avatar">
+        
+        <h1>ChaviiF</h1>
+        <div class="handle">he/him • Developer</div>
+        
+        <p>
+            Hola, soy Bauti o ChaviiF :3. Siempre me gusta aprender cosas nuevas de software o sistemas operativos. Tengo una novia que amo con mucho cariño. Estoy trabajando con mis amigos (que los quiero mucho) en un proyecto llamado <strong>Neth</strong>, que trata sobre cada uno de los integrantes se encarga de cada cosa que le gusta hacer. a mi obviamente me toco
+             la parte de software y estoy creando una distribucion basandose en arch linux que estoy desarrollando desde cero (kernel, shell y optimizado para computadoras asi gama baja). 
+            Cualquier cosa que quieras saber de mí, te dejo mi GitHub y mi proyecto <strong>Neth</strong>, un proyecto que estamos con los chicos haciendolo con mucha dedicación y amor. Espero que te guste y si quieres colaborar, no tengo ningún problema en que me ayudes :D!
+        </p>
+
+        <div class="links">
+            <!-- Cambiá aca el link si tu usuario de github tiene otra URL exacta -->
+            <a href="https://github.com" class="btn" target="_blank">GitHub</a>
+            <a href="http://neth.c-om.net" class="btn" target="_blank">Proyecto Neth</a>
+        </div>
+    </div>
+
+</body>
+</html>5
